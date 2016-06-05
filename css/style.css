@@ -1,0 +1,57 @@
+/******************-----PARAM GENERAL-----******************/
+
+@import url(https://fonts.googleapis.com/css?family=Teko);
+
+*, a{
+	font-family: 'Teko', sans-serif;
+	color:pink;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background:url(http://i.imgur.com/l7JtSpk.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+:hover,:focus,:active { outline:none; }
+/******************-----NAV-----******************/
+.navbar-fixed-top { /*couleur du menu*/
+	background-color: #222222;
+  	opacity: 0.6;
+  	border-bottom:1px solid pink;
+}
+	.navbar-fixed-top a {
+		font-size: 4rem;
+		text-decoration: none;
+		margin:0 1.5rem;
+	}
+/******************-----HEADER : JUMBOTRON-----******************/
+#jumbotron {
+	line-height:100vh;
+    vertical-align:middle;
+    height:800px;
+}
+	#jumbotron h1 {
+		font-size: 6rem;
+		margin-top:18%;
+	}
+	#jumbotron a {
+		text-decoration: none;
+	}
+/******************-----SECTION : PORTFOLIO-----******************/
+#portfolio {
+	border-top: 1px solid pink;
+}
+#portfolio img{
+	width: 40rem;
+	height: 25rem;
+	margin-top: 5rem;
+}
+#portfolio .row {
+	text-align:center;
+}
+
+
