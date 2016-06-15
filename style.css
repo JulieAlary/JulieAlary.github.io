@@ -1,0 +1,98 @@
+/******************-----PARAM GENERAL-----******************/
+
+@import url(https://fonts.googleapis.com/css?family=Teko);
+
+*, a{
+	font-family: 'Teko', sans-serif;
+	color:pink;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background:url(http://i.imgur.com/l7JtSpk.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+h2, h3, h4, h5, p {
+	text-align: center;
+}
+:hover,:focus,:active { outline:none; }
+/******************-----NAV-----******************/
+.navbar-fixed-top { /*couleur du menu*/
+	background-color: #222222;
+  	opacity: 0.6;
+  	border-bottom:1px solid pink;
+}
+	.navbar-fixed-top a {
+		font-size: 4rem;
+		text-decoration: none;
+		margin:0 1.5rem;
+	}
+/******************-----HEADER : JUMBOTRON-----******************/
+#jumbotron {
+	line-height:100vh;
+    vertical-align:middle;
+}
+	#jumbotron h1 {
+		font-size: 6rem;
+		margin-top:18%;
+	}
+	#jumbotron a {
+		text-decoration: none;
+	}
+/******************-----SECTION : PORTFOLIO-----******************/
+#portfolio {
+	border-top: 1px solid pink;
+	margin-top: 20%;
+}
+	#portfolio img{
+		width: 40rem;
+		height: 25rem;
+		margin-top: 5rem;
+	}
+	#portfolio .row {
+		text-align:center;
+		margin-bottom: 10%;
+	}
+/******************-----SECTION : SKILLS-----******************/
+#skills {
+	border-top: 1px solid pink;
+}
+	#skills h2{
+		font-size: 5rem;
+		margin-top: 10%;
+	}
+	#skills h3 {
+		font-size: 4rem;
+	}
+	#skills h4 {
+		font-size: 3rem;
+	}
+	#skills p {
+		font-size: 3rem;
+		margin-top: 10%;
+	}
+	#skills .row img {
+		width:7.5rem;
+	}
+	#skills .row:nth-child(1), #skills .row:nth-child(2) {
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+/******************-----SECTION : SKILLS-----******************/
+#contact {
+	border-top: 1px solid pink;
+}
+	#contact .row {
+		margin: 10% 2%;
+	}
+	#contact h2 {
+		margin-top: 10rem;
+	}
+	#contact img {
+		border-radius: 2rem;
+		width: 7.5rem;
+	}
