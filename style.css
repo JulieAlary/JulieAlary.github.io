@@ -5,6 +5,7 @@
 *, a{
 	font-family: 'Teko', sans-serif;
 	color:pink;
+	text-shadow: 5px 5px 10px #222222;
 }
 html {
 	font-size: 62.5%;
@@ -82,17 +83,22 @@ h2, h3, h4, h5, p {
 		margin-top: 10rem;
 		margin-bottom: 10rem;
 	}
-/******************-----SECTION : SKILLS-----******************/
+/******************-----SECTION : CONTACT-----******************/
 #contact {
 	border-top: 1px solid pink;
 }
 	#contact .row {
 		margin: 10% 2%;
+		font-size: 7rem;
 	}
 	#contact h2 {
 		margin-top: 10rem;
+		font-size: 5rem;
 	}
 	#contact img {
 		border-radius: 2rem;
 		width: 7.5rem;
+	}
+	#contact .row {
+		text-align: center;
 	}
