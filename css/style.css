@@ -5,6 +5,7 @@
 *, a{
 	font-family: 'Teko', sans-serif;
 	color:pink;
+	text-shadow: 5px 5px 10px #222222;
 }
 html {
 	font-size: 62.5%;
@@ -15,6 +16,9 @@ body {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+}
+h2, h3, h4, h5, p {
+	text-align: center;
 }
 :hover,:focus,:active { outline:none; }
 /******************-----NAV-----******************/
@@ -32,7 +36,6 @@ body {
 #jumbotron {
 	line-height:100vh;
     vertical-align:middle;
-    height:800px;
 }
 	#jumbotron h1 {
 		font-size: 6rem;
@@ -44,14 +47,58 @@ body {
 /******************-----SECTION : PORTFOLIO-----******************/
 #portfolio {
 	border-top: 1px solid pink;
+	margin-top: 20%;
 }
-#portfolio img{
-	width: 40rem;
-	height: 25rem;
-	margin-top: 5rem;
+	#portfolio img{
+		width: 40rem;
+		height: 25rem;
+		margin-top: 5rem;
+	}
+	#portfolio .row {
+		text-align:center;
+		margin-bottom: 10%;
+	}
+/******************-----SECTION : SKILLS-----******************/
+#skills {
+	border-top: 1px solid pink;
 }
-#portfolio .row {
-	text-align:center;
+	#skills h2{
+		font-size: 5rem;
+		margin-top: 10%;
+	}
+	#skills h3 {
+		font-size: 4rem;
+	}
+	#skills h4 {
+		font-size: 3rem;
+	}
+	#skills p {
+		font-size: 3rem;
+		margin-top: 10%;
+	}
+	#skills .row img {
+		width:7.5rem;
+	}
+	#skills .row:nth-child(1), #skills .row:nth-child(2) {
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+/******************-----SECTION : CONTACT-----******************/
+#contact {
+	border-top: 1px solid pink;
 }
-
-
+	#contact .row {
+		margin: 10% 2%;
+		font-size: 7rem;
+	}
+	#contact h2 {
+		margin-top: 10rem;
+		font-size: 5rem;
+	}
+	#contact img {
+		border-radius: 2rem;
+		width: 7.5rem;
+	}
+	#contact .row {
+		text-align: center;
+	}
