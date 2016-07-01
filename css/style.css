@@ -107,3 +107,7 @@ h2, h3, h4, h5, p {
 	background-color: pink;
 	border-color: pink;
 }
+.btn-lg:hover{
+	background-color: #222222;
+	color:pink;
+}
