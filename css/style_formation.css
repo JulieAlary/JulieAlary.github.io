@@ -22,4 +22,6 @@ body {
 	text-align:center;
 	text-transform: uppercase;
 	font-size: 5rem;
+	color:pink;
+	background-color: transparent;
 }
