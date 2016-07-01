@@ -83,6 +83,14 @@ h2, h3, h4, h5, p {
 		margin-top: 10rem;
 		margin-bottom: 10rem;
 	}
+	.btn-lg {
+		background-color: pink;
+		border-color: pink;
+	}
+	.btn-lg:hover{
+		background-color: #222222;
+		color:pink;
+	}
 /******************-----SECTION : CONTACT-----******************/
 #contact {
 	border-top: 1px solid pink;
@@ -102,12 +110,3 @@ h2, h3, h4, h5, p {
 	#contact .row {
 		text-align: center;
 	}
-/******************-----*/
-.btn-lg {
-	background-color: pink;
-	border-color: pink;
-}
-.btn-lg:hover{
-	background-color: #222222;
-	color:pink;
-}
