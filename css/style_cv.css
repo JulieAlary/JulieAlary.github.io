@@ -1,0 +1,19 @@
+/******************-----PARAM GENERAL-----******************/
+
+@import url(https://fonts.googleapis.com/css?family=Teko);
+
+*, a{
+	font-family: 'Teko', sans-serif;
+	color:pink;
+	text-shadow: 5px 5px 10px #222222;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background:url(http://i.imgur.com/l7JtSpk.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
