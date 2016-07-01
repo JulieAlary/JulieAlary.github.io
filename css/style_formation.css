@@ -17,3 +17,9 @@ body {
   	-o-background-size: cover;
   	background-size: cover;
 }
+/******************-----JUMBOTRON-----******************/
+.jumbotron {
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 5rem;
+}
