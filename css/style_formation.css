@@ -17,6 +17,9 @@ body {
   	-o-background-size: cover;
   	background-size: cover;
 }
+h2, p{
+	text-align: center;
+}
 /******************-----JUMBOTRON-----******************/
 .jumbotron {
 	text-align:center;
@@ -26,7 +29,17 @@ body {
 	background-color: transparent;
 }
 /******************-----LESSON-----******************/
-
-.lesson {
-	border-color:pink;
+.lesson_one {
+	border: 1px solid pink;
+	border-radius:20px;
 }
+	.lesson_one h2 {
+		background-color: #222222;
+	}
+	.lesson_one ul {
+		background-color: #222222;
+		border-radius: 0 0 10px 10px;
+	}
+
+
+
