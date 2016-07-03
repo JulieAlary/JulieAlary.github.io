@@ -32,7 +32,6 @@ h2, p{
 .lesson_one {
 	border: 1px solid pink;
 	border-radius:20px;
-	display: inline-block;
 }
 	.lesson_one h2 {
 		background-color: #222222;
@@ -45,7 +44,19 @@ h2, p{
 	}
 .lesson {
 	overflow-x: scroll;
-    overflow-y: hidden;
+    overflow-y: none;
     white-space: nowrap;
 }
 /******************TEST TIMELINE*****************/
+
+.carousel-content {
+    color:black;
+    display:flex;
+    align-items:center;
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
