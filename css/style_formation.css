@@ -32,6 +32,7 @@ h2, p{
 .lesson_one {
 	border: 1px solid pink;
 	border-radius:20px;
+	display: inline-block;
 }
 	.lesson_one h2 {
 		background-color: #222222;
@@ -42,4 +43,9 @@ h2, p{
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
+.lesson {
+	overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
 /******************TEST TIMELINE*****************/
