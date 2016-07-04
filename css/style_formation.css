@@ -29,6 +29,9 @@ h2, p{
 	background-color: transparent;
 }
 /******************-----LESSON  CAROUSEL-----******************/
+.carousel { /*empeche la fleche du bas de bouger*/
+	height: 450px;
+}
 .carousel-content {
 	border: 1px solid pink;
 	border-radius:20px;
@@ -42,9 +45,10 @@ h2, p{
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
-.fa-arrow-left {
-	margin-top: 20rem;
+.fa-arrow-left {/*custom de la fleche du bas*/
+	margin-top: 10rem;
 	font-size: 3rem;
 }
+
 /******************-----LESSON  CAROUSEL-----******************/
 
