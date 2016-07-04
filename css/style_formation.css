@@ -42,8 +42,9 @@ h2, p{
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
-body > footer {
-	position: fixed-bottom;
+.fa-arrow-left {
+	margin-top: 20rem;
+	font-size: 3rem;
 }
 /******************-----LESSON  CAROUSEL-----******************/
 
