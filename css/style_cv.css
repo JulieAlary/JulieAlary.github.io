@@ -54,3 +54,12 @@ span {
 hr {
 	width: 50px;
 }
+
+.fa-arrow-left {/*custom de la fleche du bas*/
+		font-size: 3rem;
+		margin-bottom: 4rem;
+		margin-top: 4rem;
+	}
+footer .text-center {
+	margin-top:6rem;
+}
