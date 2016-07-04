@@ -20,3 +20,15 @@ body {
 footer p {
 	text-align: center;
 }
+
+/*-------------------------------------------------------------*/
+.jumbotron {
+	background-color: transparent;
+}
+	.jumbotron h1 {
+		color:pink;
+		display: inline-block;
+	}
+	.jumbotron img {
+		display: inline-block;
+	}
