@@ -54,7 +54,16 @@ span {
 hr {
 	width: 50px;
 }
-
+.btn-lg {
+	background-color: pink;
+	border-color: pink;
+	margin-top: 5rem;
+}
+.btn-lg:hover, .btn-lg:hover:active, .btn-lg:hover:focus {
+	background-color: #222222;
+	color:pink;
+	border-color: pink;
+}
 .fa-arrow-left {/*custom de la fleche du bas*/
 		font-size: 3rem;
 		margin-bottom: 4rem;
