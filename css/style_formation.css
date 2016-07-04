@@ -28,7 +28,7 @@ h2, p{
 	color:pink;
 	background-color: transparent;
 }
-/******************-----LESSON-----******************/
+/******************-----LESSON  CAROUSEL-----******************/
 .carousel-content {
 	border: 1px solid pink;
 	border-radius:20px;
@@ -42,11 +42,8 @@ h2, p{
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
-/******************TEST TIMELINE*****************/
-
-
-#text-carousel {
-  width: 100%;
-  height: auto;
-  padding: 50px;
+body > footer {
+	position: fixed-bottom;
 }
+/******************-----LESSON  CAROUSEL-----******************/
+
