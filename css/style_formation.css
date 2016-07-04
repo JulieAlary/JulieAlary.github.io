@@ -29,31 +29,21 @@ h2, p{
 	background-color: transparent;
 }
 /******************-----LESSON-----******************/
-.lesson_one {
+.carousel-content {
 	border: 1px solid pink;
 	border-radius:20px;
 }
-	.lesson_one h2 {
+	.carousel-content h2 {
 		background-color: #222222;
 		font-size: 3.5rem;
 	}
-	.lesson_one ul {
+	.carousel-content ul {
 		background-color: #222222;
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
-.lesson {
-	overflow-x: scroll;
-    overflow-y: none;
-    white-space: nowrap;
-}
 /******************TEST TIMELINE*****************/
 
-.carousel-content {
-    color:black;
-    display:flex;
-    align-items:center;
-}
 
 #text-carousel {
   width: 100%;
