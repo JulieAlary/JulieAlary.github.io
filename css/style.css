@@ -27,6 +27,7 @@ h2, h3, h4, h5, p {
 	text-align: center;
 }
 
+
 /******************-----NAV-----******************/
 .navbar-fixed-top { /*couleur du menu*/
 	background-color: #222222;
@@ -110,7 +111,7 @@ h2, h3, h4, h5, p {
 /******************-----SECTION : CONTACT-----******************/
 #contact {
 	border-top: 1px solid pink;
-	padding-bottom: 15rem;
+	padding-bottom: 10rem;
 }
 	#contact .row {
 		margin: 10% 2%;
@@ -125,6 +126,12 @@ h2, h3, h4, h5, p {
 		border-radius: 2rem;
 		width: 7.5rem;
 	}
+/******************-----SECTION : FOOTER-----******************/
+.navbar-text {
+  float:inherit;
+}
+
+
 /******************     ANIMATION LIEN MENU !!         ******************/
 /* Wobble To Top Right */
 @-webkit-keyframes hvr-wobble-to-top-right {

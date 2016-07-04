@@ -20,6 +20,9 @@ body {
 h2, p {
 	text-align: center;
 }
+.navbar-text {/*permet le centrage du footer*/
+  float:inherit;
+}
 /******************-----JUMBOTRON-----******************/
 .jumbotron {
 	text-align:center;
@@ -45,10 +48,10 @@ h2, p {
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
-.fa-arrow-left {/*custom de la fleche du bas*/
-	margin-top: 10rem;
-	font-size: 3rem;
-}
+	.fa-arrow-left {/*custom de la fleche du bas*/
+		font-size: 3rem;
+		margin-bottom: 4rem;
+	}
 
 /******************-----LESSON  CAROUSEL-----******************/
 
