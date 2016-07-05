@@ -92,14 +92,28 @@
             <h2>[Contact me] [Follow me] [fork me] [...]</h2>
         </div>
         <div class="row">
-            <div class="col-xs-4 col-md-4"><a href="https://twitter.com/julie_alary"target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
-            <div class="col-xs-4 col-md-4"><a href="https://www.facebook.com/julie.alary1" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-            <div class="col-xs-4 col-md-4"><a href="https://www.linkedin.com/in/juliealary?trk=nav_responsive_tab_profile_pic"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+            <div class="col-xs-4 col-md-4">
+                <div class="flip4"><i class="fa fa-twitter"></i></div>
+                    <div class="panel4"><a class="twitter-timeline" href="https://twitter.com/julie_alary" data-widget-id="708459886145880066">Tweets de @julie_alary</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                </div>
+            <div class="col-xs-4 col-md-4">
+                <a href="https://www.facebook.com/julie.alary1" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-xs-4 col-md-4">
+                <a href="https://www.linkedin.com/in/juliealary?trk=nav_responsive_tab_profile_pic"target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
         </div>
         <div class="row second_row">
-            <div class="col-xs-4 col-md-4"><a href="https://github.com/JulieAlary" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></div>
-            <div class="col-xs-4 col-md-4"><a href="http://codepen.io/Julie31/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></div>
-            <div class="col-xs-4 col-md-4"><a href="mailto:julie.alary@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></div>
+            <div class="col-xs-4 col-md-4">
+                <a href="https://github.com/JulieAlary" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-xs-4 col-md-4">
+                <a href="http://codepen.io/Julie31/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+            </div>
+            <div class="col-xs-4 col-md-4">
+                <a href="mailto:julie.alary@gmail.com" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </div>
         </div>
     </section>
   
@@ -134,7 +148,10 @@
           scrollTop:$(the_id).offset().top
           }, 'slow');
           return false;
-      });
+      });    
+        $(".flip4").click(function(){// flip twitter
+        $(".panel4").slideToggle("slow");
+    });
     </script>
 
   </body>

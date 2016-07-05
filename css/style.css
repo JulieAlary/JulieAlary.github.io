@@ -122,6 +122,18 @@ h2, h3, h4, h5, p {
 		margin-top: 17rem;
 		font-size: 5rem;
 	}
+/*----FLIP TWITTER-----*/
+.panel4, .flip4 {
+    padding: 5px;
+    text-align: center;
+    color: #42BFD1;
+}
+.panel4 {
+    display: none;
+}
+.flip4 {
+   margin-top:-10px;
+}
 /******************-----SECTION : FOOTER-----******************/
 .navbar-text {
   float:inherit;
@@ -309,3 +321,4 @@ h2, h3, h4, h5, p {
         margin-top: 8rem;
     }
 }
+
