@@ -53,5 +53,17 @@ h2, p {
 		margin-bottom: 4rem;
 	}
 
-/******************-----LESSON  CAROUSEL-----******************/
+/*************************RESPONSIVE*************************/
+@media (max-width: 320px) {
+	.carousel-content h2 {
+		font-size: 2rem;
+	}
+	.carousel-content ul {
+		font-size: 1.5rem;
+	}
+	.carousel-content ul li {
+		margin-left: -2.2rem;
+	}
+
+}
 

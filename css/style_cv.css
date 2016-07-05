@@ -72,3 +72,21 @@ hr {
 footer .text-center {
 	margin-top:6rem;
 }
+/*-----------------------      RESPONSIVE ----------------------------*/
+@media (max-width: 768px) {
+	.hobbies h3{
+		margin-left: 1rem;
+	}
+}
+@media (max-width: 480px) {
+	.experience h3 {
+    	margin-left: 1rem;
+    }
+}
+@media (max-width: 480px) {
+	.presentation h1 {
+    	font-size: 4.5rem;
+    }
+}
+
+
