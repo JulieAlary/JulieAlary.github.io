@@ -134,6 +134,9 @@ h2, h3, h4, h5, p {
 .flip4 {
    margin-top:-10px;
 }
+.fa-twitter:hover {/*permet d'avoir un pointeur sur l'incone twitter*/
+  cursor: pointer;
+}
 /******************-----SECTION : FOOTER-----******************/
 .navbar-text {
   float:inherit;
