@@ -48,9 +48,11 @@ h2, p {
 		border-radius: 0 0 10px 10px;
 		font-size: 2rem;
 	}
-	.fa-arrow-left {/*custom de la fleche du bas*/
-		font-size: 3rem;
+	.fa-arrow-left, .fa-home {/*custom de la fleche du bas*/
+		font-size: 4rem;
 		margin-bottom: 4rem;
+		margin-top: 6rem;
+		letter-spacing: 1rem;
 	}
 
 /*************************RESPONSIVE*************************/
