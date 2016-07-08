@@ -26,7 +26,9 @@ body {
 h2, h3, h4, h5, p {
 	text-align: center;
 }
-
+a:focus  {
+  color: pink;
+}
 
 /******************-----NAV-----******************/
 .navbar-fixed-top { /*couleur du menu*/
@@ -149,7 +151,7 @@ h2, h3, h4, h5, p {
 }
 .fa-github-alt:hover{
   color:black;
-  text-shadow: -1px 1px 1px white;
+  text-shadow: -1px 1px 1px pink;
 }
 .fa-codepen:hover {
   color:white;
