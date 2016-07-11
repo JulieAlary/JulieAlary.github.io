@@ -26,7 +26,7 @@ body {
 h2, h3, h4, h5, p {
 	text-align: center;
 }
-a:focus  {
+a:focus, a:active  {
   color: pink;
 }
 
