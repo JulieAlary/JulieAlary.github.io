@@ -20,12 +20,18 @@ Pitch	=> 	Le savant chat prénommé Mayahi Mayahou Mayahaha détient la couche d
 	
 	Etant très organisé tu décides de d'attaquer aux premières sources de pollution atmosphériques (source : http://www2.prevair.org/content/origine-et-sources-de-pollution) Sachant que tu ne peux rien faire contre les source de pollution anthropiques naturelles (émissions par la végétation, l’érosion du sol, les volcans, les océans, etc), tu décides de t'attaquer aux sources humaines :  les activités industrielles. (source :http://www.toutvert.fr/10-industries-plus-polluantes-monde/)
 
-	La première étant : Recyclage des batteries au plomb, tu décides d'aller convaincre la l'entreprise Plomb Forever. Qui se situe à 500km d'ici.
+	La première étant : Recyclage des batteries au plomb, tu décides d'aller convaincre la l'entreprise Plombs Forever. Qui se situe à 500km d'ici.
 	Comment vas-tu faire pour t'y rendre : 
 			choix 1 : En stop c'est plus écolo.
 			choix 2 : En louant une voiture électrique.
 
-				choix 1-1 : tu fais du stop pendant des heures, personnes ne te prend... Au bout de quelques heures tu as très soif , tu trouves une bouteille, qui n'a pas l'air très ancienne. Alors tu bois... Erreur... du pétrole s'était légèrement répandu sur la bouteille...Tu t'intoxique... (srr : intoxication liées aux pétroles)
+				choix 1-1 : tu fais du stop pendant des heures, personnes ne te prend... Au bout de quelques heures tu as très soif , tu trouves une bouteille, qui n'a pas l'air très ancienne. Alors tu bois... Erreur... du pétrole s'était légèrement répandu sur la bouteille...Tu t'intoxique... (srr : intoxication liées aux pétroles), un camion poids te trouve agonisant au bord de la route... et t'amène à 10km de la société mais à l'hopital... La nuit passée à l'hopital , tu te dis que la prochaine étape sera la pétrochimie... Tu perds 1000 pts d'ozone car c'est un camion qui t'as amené au plus près de ta destination.
+
+				choix 2-2 : la voiture en main tu avances tranquillement vers l'entreprise Plombs Forever, tu perds 500pts d'ozone... c'est beaucoup, mais ca t'as fait gagné du temps et ca pollue toujours moins qu'un poids lourds par exemple.
+
+	Tu arrives enfin à l'intérieur de l'entreprise et le patron Mr Mario Plumber veut bien te voir. Mais il n'a pas mangé... et est très en colère d'etre dérangé....
+
+
 
 
 	
