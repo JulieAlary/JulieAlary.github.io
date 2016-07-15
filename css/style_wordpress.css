@@ -1,0 +1,67 @@
+/******************-----PARAM GENERAL-----******************/
+
+@import url(https://fonts.googleapis.com/css?family=Teko);
+
+*, a{
+	font-family: 'Teko', sans-serif;
+	color:pink;
+	text-shadow: 5px 5px 10px #222222;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	background:url(http://i.imgur.com/l7JtSpk.jpg)no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.jumbotron {
+	text-align:center;
+	text-transform: uppercase;
+	font-size: 5rem;
+	color:pink;
+	background-color: transparent;
+}
+a:hover {
+	text-decoration: none;
+	color:pink;
+}
+li a {
+	text-decoration: underline;
+}
+/*----------------------------------------------------------------------------*/
+.col-md-6 img {
+	width: 250px;
+	height:200px;
+	display: inline-block;
+}
+.row_borded {
+	border: 1px solid pink;
+	margin-top: 2rem;
+	border-radius: 10px;
+}
+.col_pad {
+	padding: 2rem 0rem;
+}
+p, ul {
+	font-size: 1.8rem;
+	margin-left: 5rem;
+}
+h3 {
+	margin-left: 5rem;
+}
+footer p {
+	text-align: center;
+}
+.navbar-text {/*permet de centrer le te texte*/
+  float:inherit;
+}
+
+
+
+
+
+
+
