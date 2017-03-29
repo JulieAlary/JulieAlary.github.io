@@ -65,7 +65,8 @@ function getMeteo(){
                 "<h5>Vitesse du vent</h5>" +
                 "<p>"+vitesseVent+"</p></div>" +
                 "</div>" +
-                "</div>");
+                "</div>" +
+                "<h3>Application météo développée avec l'API 'Weather Underground' et JQuery</h3>");
 
         }
     });
