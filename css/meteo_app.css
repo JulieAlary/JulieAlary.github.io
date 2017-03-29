@@ -1,10 +1,15 @@
 /******************     Meteo App        ******************/
-
+body {
+    background:url(http://img11.hostingpics.net/pics/426370mainbackground.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .currentPosition {
     margin-top: 5%;
     border: 1px solid #222222;
-    border-radius: 2%;
     box-shadow: 1px 1px 12px #555;
     background: url('https://image.freepik.com/free-vector/grass-and-sky_23-2147499459.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
