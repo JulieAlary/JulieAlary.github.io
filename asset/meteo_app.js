@@ -2,11 +2,6 @@
  * Created by Julie Alary on 29/03/2017.
  */
 
-
-/**
- * Created by juliealary on 22/03/2017.
- */
-
 document.addEventListener("DOMContentLoaded", function(event) {
     if (location.protocol != 'https:')				{
         location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
