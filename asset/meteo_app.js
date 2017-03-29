@@ -49,8 +49,8 @@ function getMeteo(){
 
             $("body").append("" +
                 "<div class='row'>" +
-                "<div class='currentPosition col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2 text-center'>" +
-                "<h2>" + location + "</h2> " +
+                "<div class='currentPosition col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3 text-center'>" +
+                "<h2>" + location + "</h2><hr> " +
                 "<div style='margin-top:13px;'> " +
                 "<h3><i class='fa fa-thermometer-three-quarters' aria-hidden='true'></i>&nbsp;&nbsp;" + temp_c + "</h3>" +
                 "<img height='80px' width='80px' src='"+uneimage+"' alt='"+untitle+"' title='"+weather+"'/>" +
