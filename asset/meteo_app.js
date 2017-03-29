@@ -49,7 +49,7 @@ function getMeteo(){
 
             $("body").append("" +
                 "<div class='row'>" +
-                    "<h3 class='text-center' style='color:pink;'>Application météo développée avec l'API 'Weather Underground' et JQuery</h3>" +
+                    "<h3 class='text-center' style='color:pink;margin-top:50px;'>Application météo développée avec l'API 'Weather Underground' et JQuery</h3>" +
                 "<div class='currentPosition col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3 text-center'>" +
                 "<h2>" + location + "</h2><hr> " +
                 "<div style='margin-top:13px;'> " +
