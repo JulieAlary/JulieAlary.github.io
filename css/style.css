@@ -287,6 +287,8 @@ a:focus {
   right: 0;
 }
 
+
+
 /******************     RESPONSIVE        ******************/
 @media (max-width: 768px) {
   #jumbotron h1 {
