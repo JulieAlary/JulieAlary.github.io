@@ -9,6 +9,7 @@
 html {
 	font-size: 62.5%;
 }
+
 body {
 	background:url(http://i.imgur.com/l7JtSpk.jpg)no-repeat center center fixed;
   	-webkit-background-size: cover;
@@ -16,6 +17,7 @@ body {
   	-o-background-size: cover;
   	background-size: cover;
 }
+
 .navbar-text {/*permet le centrage du footer*/
   float:inherit;
 }
