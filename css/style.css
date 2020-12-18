@@ -77,19 +77,13 @@ a:focus {
 #skills {
 	border-top: 1px solid pink;
 }
-	#skills h2{
-		font-size: 5rem;
-		margin-top: 10rem;
-	}
-	#skills h3 {
-		font-size: 4rem;
-	}
-	#skills h4 {
-		font-size: 3rem;
-	}
+    /*Premier p de la div*/
+    #skills > div.about > p:nth-child(1){
+        margin-top: 10rem;
+    }
 	#skills p {
-		font-size: 3rem;
-		margin-top: 5rem;
+		font-size: 4rem;
+		margin-top: 2.5rem;
 	}
 	#skills .row img {
 		width:7.5rem;
